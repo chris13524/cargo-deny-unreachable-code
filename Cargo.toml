@@ -1,0 +1,9 @@
+[package]
+name = "cargo-deny-unreachable-code"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+wc = { git = "https://github.com/WalletConnect/utils-rs.git", tag = "v0.9.1", default-features = false, features = ["analytics"] }
+wc_legacy = { git = "https://github.com/WalletConnect/utils-rs.git", package = "wc", tag = "v0.8.0", default-features = false }

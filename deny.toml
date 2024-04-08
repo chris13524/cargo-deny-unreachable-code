@@ -1,0 +1,6 @@
+[licenses]
+version = 2
+allow = ["MIT"]
+
+[sources]
+allow-git = ["https://github.com/WalletConnect/utils-rs.git"]
